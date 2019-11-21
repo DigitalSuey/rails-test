@@ -1,4 +1,4 @@
-import "core-js/stable";
+import "core-js";
 import "regenerator-runtime/runtime";
 
 /* eslint no-console:0 */
