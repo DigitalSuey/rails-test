@@ -12,9 +12,11 @@ const initialState = {
 
 const rootReducer = (state, action) => {
   switch (action.type) {
-    default:
-      return state;
+    case "GET_THINGS_SUCCESS":
+      return { things: action.json.things };
   }
+
+  return state;
 };
 
 const configureStore = () => {
